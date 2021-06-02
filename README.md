@@ -12,6 +12,14 @@ This repository is currently under development. To do a developmental install, d
 
 in the repository directory.
 
+Features should be developed on branches. To create and switch to a branch, use the command
+
+`git checkout -b new_branch_name`
+
+To switch to an existing branch, use
+
+`git checkout new_branch_name`
+
 ### Copyright
 
 Copyright (c) 2021, Alexander Perez
@@ -25,11 +33,3 @@ Project based on the
 This package requires the following:
   - numpy
   - matplotlib
-
-Features should be developed on branches. To create and switch to a branch, use the command
-
-`git checkout -b new_branch_name`
-
-To switch to an existing branch, use
-
-`git checkout new_branch_name`
