@@ -58,9 +58,11 @@ def zen():
     return quote
 
 def calculate_distance(rA, rB):
-    d=(rA-rB)
-    dist=np.linalg.norm(d)
-    return dist
+
+   dist_vec = (rA - rB)
+   distance = np.linalg.norm(dist_vec)
+
+   return distance
 
 def open_pdb(file_location):
     
